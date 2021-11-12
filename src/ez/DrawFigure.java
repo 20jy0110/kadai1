@@ -20,7 +20,7 @@ public class DrawFigure {
 		EZ.setBackgroundColor(Color.PINK);
 
 		//線を描く(始点x, 始点y, 終点x, 終点y, 色, 線幅)
-		EZ.addLine(40,0, 40,30, Color.RED, 1);
+		EZ.addLine(40,0, 40,30, Color.BLUE, 1);
 		EZ.addLine(0,20, 200,20, Color.RED, 1);
 
 		//矩形を描く(中心座標x, y, 終点x, 終点y, 色, 塗りつぶし)
