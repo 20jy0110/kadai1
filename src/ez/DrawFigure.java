@@ -20,7 +20,7 @@ public class DrawFigure {
 		EZ.setBackgroundColor(Color.PINK);
 
 		//線を描く(始点x, 始点y, 終点x, 終点y, 色, 線幅)
-		EZ.addLine(40,0, 40,30, Color.RED, 1);
+		EZ.addLine(40,0, 40,30, Color.BLUE, 1);
 		EZ.addLine(0,20, 200,20, Color.RED, 1);
 
 		//矩形を描く(中心座標x, y, 終点x, 終点y, 色, 塗りつぶし)
@@ -40,7 +40,7 @@ public class DrawFigure {
 		EZ.addText(300,50, "012あいう漢字", Color.BLACK, 24);
 
 		// 円を描く．(中心座標x, y, 幅，高さ，色，塗りつぶし)
-		EZ.addCircle(100, 100, 150, 150, Color.BLUE, true);
+		EZ.addCircle(100, 100, 150, 150, Color.GREEN, true);
 		EZ.addCircle(200, 200, 200, 200, Color.RED,  false);
 		
 		int[] nxp = {200,205,195,200};
