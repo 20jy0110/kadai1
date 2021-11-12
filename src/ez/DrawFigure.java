@@ -29,7 +29,7 @@ public class DrawFigure {
 		//ポリゴンを描く(座標配列x,y, 色, 塗りつぶし)
 		int[] xp = {200,300,220,250,290,200};
 		int[] yp = {100,100,200,80,190,100};
-		EZ.addPolygon(xp, yp, Color.GREEN, false);
+		EZ.addPolygon(xp, yp, Color.RED, false);
 		
 		//イメージを描画 (ファイル名, 中心座標x,y)
 		EZImage cat = EZ.addImage("src/ez/cat.jpg", 300,300);
